@@ -6,7 +6,7 @@ body, html{
   text-align: center;
   font-weight: 400;
   line-height: 1.8em;
-  color:#666;
+  color: #666;
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -24,17 +24,17 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('image1.jpg');
+  background-image:url('images/image1.jpg');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('image2.jpg');
+  background-image:url('images/image2.jpg');
   min-height:400px;
 }
 
 .pimg3{
-  background-image:url('houston.jpg');
+  background-image:url('images/houston.jpg');
   min-height:400px;
 }
 
@@ -44,8 +44,8 @@ body, html{
 }
 
 .section-light{
-  background-color:#f4f4f4;
-  color:#666;
+  background-color :#f4f4f4;
+  color: #666;
 }
 
 .section-dark{
@@ -57,11 +57,11 @@ body, html{
   position:absolute;
   top:50%;
   width:100%
-  text-align:center;
-  color:#000;
+  text-align: center;
+  color: #000;
   font-size: 27px;
-  letter-spacing: 8px;
-  text-transform:uppercase;
+  letter-spacing : 8px;
+  text-transform : uppercase;
 }
 
 .ptext.border{
@@ -76,6 +76,6 @@ body, html{
 
 @media(max-width:568px){
   .pimg1, .pimg2{
-    background-attachment:scroll;
+    background-attachment: scroll;
   }
 }

@@ -1,1 +1,1 @@
-<?php header ('Location: Hackathon Website Project/index.html') ; ?>
+<?php header ('Location: /index.html') ; ?>
